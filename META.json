@@ -35,7 +35,7 @@
    "provides" : {
       "Crypt::ScryptKDF" : {
          "file" : "lib/Crypt/ScryptKDF.pm",
-         "version" : "0.003"
+         "version" : "0.004"
       }
    },
    "release_status" : "stable",
@@ -44,5 +44,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.003"
+   "version" : "0.004"
 }
