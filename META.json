@@ -18,24 +18,27 @@
          "requires" : {
             "ExtUtils::CBuilder" : "0",
             "MIME::Base64" : "0",
-            "Test::More" : "0"
+            "Module::Build" : "0",
+            "Test::More" : "0",
+            "parent" : "0"
          }
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.40"
+            "Module::Build" : "0"
          }
       },
       "runtime" : {
          "requires" : {
-            "MIME::Base64" : "0"
+            "MIME::Base64" : "0",
+            "parent" : "0"
          }
       }
    },
    "provides" : {
       "Crypt::ScryptKDF" : {
          "file" : "lib/Crypt/ScryptKDF.pm",
-         "version" : "0.004"
+         "version" : "0.005"
       }
    },
    "release_status" : "stable",
@@ -44,5 +47,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.004"
+   "version" : "0.005"
 }

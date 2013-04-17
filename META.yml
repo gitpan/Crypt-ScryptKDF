@@ -5,9 +5,11 @@ author:
 build_requires:
   ExtUtils::CBuilder: 0
   MIME::Base64: 0
+  Module::Build: 0
   Test::More: 0
+  parent: 0
 configure_requires:
-  Module::Build: 0.40
+  Module::Build: 0
 dynamic_config: 1
 generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921'
 license: perl
@@ -18,9 +20,10 @@ name: Crypt-ScryptKDF
 provides:
   Crypt::ScryptKDF:
     file: lib/Crypt/ScryptKDF.pm
-    version: 0.004
+    version: 0.005
 requires:
   MIME::Base64: 0
+  parent: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.004
+version: 0.005
