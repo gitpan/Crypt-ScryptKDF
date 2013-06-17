@@ -2,9 +2,11 @@ Build.PL
 Changes
 lib/Crypt/ScryptKDF.pm
 lib/Crypt/ScryptKDF.xs
+LICENSE
 MANIFEST			This list of files
 META.json
 META.yml
+README
 src/crypto_scrypt-nosse.c
 src/crypto_scrypt.h
 src/scrypt_platform.h
