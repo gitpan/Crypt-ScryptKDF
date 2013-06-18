@@ -19,11 +19,11 @@ name: Crypt-ScryptKDF
 provides:
   Crypt::ScryptKDF:
     file: lib/Crypt/ScryptKDF.pm
-    version: 0.007
+    version: 0.008
 requires:
   Exporter: 5.59
   MIME::Base64: 0
   perl: 5.006
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.007
+version: 0.008

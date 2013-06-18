@@ -9,6 +9,7 @@ META.yml
 README
 src/crypto_scrypt-nosse.c
 src/crypto_scrypt.h
+src/msinttypes.h
 src/scrypt_platform.h
 src/sha256.c
 src/sha256.h
